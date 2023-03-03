@@ -1,0 +1,1 @@
+En esta ruta se almacenan los datos procesados en el ETL, para su posterior incorporación a una cubeta de AWS S3.
