@@ -20,3 +20,5 @@ scrapper:
     'Prod. code':'code',
     'U.S. viewers (millions)':'viewers'
   }
+etl:
+  target_bucket: 'itam-analytics-camm961001'
