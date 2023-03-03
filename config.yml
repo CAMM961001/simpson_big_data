@@ -1,0 +1,21 @@
+main:
+  components_repository: "https://github.com/CAMM961001/simpson_big_data"
+  project_name: simpsons_big_data
+  steps: all
+path:
+  episodes: 'simpsons/raw/episodes'
+scrapper:
+  url: 'https://en.wikipedia.org/wiki/List_of_The_Simpsons_episodes_(seasons_1%E2%80%9320)#Season_1_(1989%E2%80%9390)'
+  overview: 0
+  seasons: [1, 21]
+  references: 22
+  names: {
+    'No. overall':'id_overall',
+    'No. in season':'id_season',
+    'Title':'title',
+    'Directed by':'director',
+    'Written by':'writer',
+    'Original air date':'air_date',
+    'Prod. code':'code',
+    'U.S. viewers (millions)':'viewers'
+  }
