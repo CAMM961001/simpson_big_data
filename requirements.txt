@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+jupyterlab
+boto3
+awswrangler
+streamlit
