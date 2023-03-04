@@ -4,6 +4,7 @@ main:
   steps: all
 path:
   episodes: 'simpsons/raw/episodes'
+  queries: 'simpsons/queries'
 scrapper:
   url: 'https://en.wikipedia.org/wiki/List_of_The_Simpsons_episodes_(seasons_1%E2%80%9320)#Season_1_(1989%E2%80%9390)'
   overview: 0
