@@ -22,3 +22,4 @@ scrapper:
   }
 etl:
   target_bucket: 'itam-analytics-camm961001'
+  athena_bucket: 'itam-athena-queries-camm961001'
